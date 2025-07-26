@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 20px;
+}
+
+/* Carousel */
+.carousel-item {
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Sección ¿Por qué contratarnos? */
+#por-que {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+#por-que h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+#por-que .card {
+    border: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+#por-que .card:hover {
+    transform: translateY(-10px);
+}
+
+#por-que i {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+/* Botón flotante WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebc59;
+    text-decoration: none;
+}

@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 20px;
+}
+
+
+/* Estilo sección Nosotros */
+#nosotros {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+#nosotros h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #343a40;
+}
+
+#nosotros .contenido {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+#nosotros img {
+    display: block;
+    margin: 40px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer igual al inicio */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+/* Botón WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebc59;
+    text-decoration: none;
+}
